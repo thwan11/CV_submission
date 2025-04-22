@@ -21,7 +21,6 @@ def submission_1_20225126(yaml_path, output_json_path, config = None):
         'epochs': 20,
         'batch': 16,
         'lr0': 0.001,
-        'lrf': 0.2,
         'momentum': 0.9,
         'weight_decay': 5e-4,
         'optimizer': 'AdamW',
