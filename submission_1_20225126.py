@@ -23,7 +23,7 @@ def submission_1_20225126(yaml_path, output_json_path, config = None):
         'lr0': 0.001,
         'momentum': 0.9,
         'weight_decay': 5e-4,
-        'optimizer': 'AdamW',
+        'optimizer': 'Adam',
         'dfl': 1.5,
         'cls': 0.5,
         'box': 10,
